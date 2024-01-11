@@ -116,7 +116,7 @@ function TableExists($tableName, $connection, $dbName) {
 
   if(mysqli_num_rows($checktable) > 0) return true;
 
-  return true;
+  return false;
 }
 ?>                        
                 
